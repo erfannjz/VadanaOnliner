@@ -1,0 +1,20 @@
+{
+    "username":"",
+    "password":"",
+    "vadamap_url":"",
+    "link_text":"",
+    "class_time":""
+
+
+    // Cheking browser version:
+
+    //      Chrome: Menu/Help/About Google Chrome
+    //      Firefox: Menu/Help/About Firefox
+
+
+    // Chrome | Firefox webdriver download links
+
+    //      https://chromedriver.chromium.org/downloads
+    //      https://github.com/mozilla/geckodriver/releases
+
+}
