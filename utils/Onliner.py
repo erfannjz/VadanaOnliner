@@ -1,3 +1,4 @@
+import pyautogui as pygui
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from os import devnull
@@ -33,6 +34,9 @@ if __name__ != '__main__':
                 self.driver.find_element(By.PARTIAL_LINK_TEXT, 'کلاس های آنلاین').click()
                 self.driver.find_element(By.PARTIAL_LINK_TEXT, link_text).click()
                 self.driver.find_element(By.CLASS_NAME, 'aconbtnjoin').click()
+                button = pygui.locateCenterOnScreen('images/button.png')
+                pygui.moveTo(button)
+                pygui.click()
             
 
         def offliner(self):
