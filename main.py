@@ -38,7 +38,7 @@ class Panel(tk.Tk):
 
 
     def btns(self):
-        # """#fc0328 #2b2e37 #03fc41"""
+        
         def on_enter1(ctx):
             if Panel.btn_state == False:
                 self.btn1['background'], self.btn1['foreground'] = '#03fc41', '#2b2e37'
