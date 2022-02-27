@@ -1,7 +1,7 @@
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from os import devnull
-from json import load
+from json5 import load
 
 if __name__ != '__main__':
 
