@@ -36,7 +36,7 @@ if __name__ != '__main__':
                 self.driver.find_element(By.CLASS_NAME, 'aconbtnjoin').click()
                 button = pygui.locateCenterOnScreen('images/button.png')
                 pygui.moveTo(button)
-                pygui.click()
+                pygui.doubleClick()
             
 
         def offliner(self):
